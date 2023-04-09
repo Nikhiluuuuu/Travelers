@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+header{
+    background-image: url(https://a.travel-assets.com/travel-assets-manager/ceorg-2118/New-LP-Hero-D-928x398.jpg);
+    width: 100%;
+    height: 600px;
+    text-align: right;  
+}
+.topbar{
+    background-color: #797878;
+    padding: 16px 24px;
+    text-align: right;
+    border-radius: 25px;
+    color: white;
+    position: relative;
+    top: 24px;
+    right: 100px;
+    text-decoration: none;
+    margin-left: 12px;
+}
+.topbar:hover{
+    background-color: #585757;
+    padding: 16px 28px;
+    border-radius:33px;
+    box-shadow: 0px 3px 2px #0e0d0d;
+}
+h1{
+    
+    text-align: center;
+}
+#image-container{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 32px;  
+   
+}
+.trip-images{
+    background-color: white;
+    width: 400px;
+    height: 410px;
+    box-shadow: 0px 3px 4px  #aaa;
+    text-align: center;
+    margin: 24px;
+    border-radius: 24px;
+    text-decoration: none;
+    color: black;
+}
+.trip-images > img{
+   
+    width: 400px;
+    height: 350px;
+    border-radius: 24px;
+    margin-right: 22px;
+}
+  
